@@ -1,0 +1,12 @@
+#!/bin/bash
+
+git checkout -b branch name {the -b option is a shortcut for creating and switching to the new branch}
+now you can work on the new branch
+
+later switch to main branch git chekout main
+then git merge {there is an instance of merging conflicts }
+git add . from the main branch then continue merging .
+git commit -m "message" 
+git push origin main {add the -u to set the upstream brach}
+
+echo "good to go"
